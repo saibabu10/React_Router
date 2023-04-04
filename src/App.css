@@ -1,14 +1,14 @@
 .App {
   /* text-align: center; */
+  background-color:black;
+  color: yellowgreen;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 .navBar a{
   padding-left: 10px;
   text-align: left;
+  background-color: #61dafb;
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {

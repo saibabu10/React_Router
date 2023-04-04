@@ -13,27 +13,26 @@ function App() {
     <Router>
     <div className="App">
       <nav className="navBar">
-        <Link to="/">Home</Link>
+        <Link to="/home">Home</Link>
         <Link to="/about">About Us</Link>
         <Link to="/contact">Contact Us</Link>
         <Link to="/Counter">Counter</Link>
         <Link to="/Form">React Form</Link>
         <Link to="/Youtube">Youtube</Link>
-        <Link to="/WelcomeFunctionComponent">Welcome with function</Link>
+        <Link to="/WelcomeFunctionComponent">Welcomefunction</Link>
         <Link to="/GreetClassComponent">Greet class </Link>
         </nav>
       <div><h1>Main Page</h1></div>
       <Routes>
+      <Route exact path='/Home' element={<HomeComponent/>}></Route>
        <Route exact path='/about' element={<AboutUsComponent/>}></Route>
        <Route exact path='/contact' element={<ContactUsComponent/>}></Route>
        <Route exact path='/Homecomponent' element={<HomeComponent/>}></Route>
        <Route exact path='/Counter' element={<Counter/>}></Route>
-       <Route exact path='/FormComponent' element={<FormComponent/>}></Route>
+       <Route exact path='/Form' element={<FormComponent/>}></Route>
        <Route exact path='/Youtube' element={<YoutubeClass/>}></Route>
-       <Route exact path='/WelcomeFunction'
-       element={<WelcomeFunctionComponent name="sai babu" college="saveetha"/> }>
-        </Route>
-       <Route exact path='/Greet class' element={<GreetClassComponent name="sai babu"/>}></Route>
+       <Route exact path='/WelcomeFunctionComponent'element={<WelcomeFunctionComponent name="sai babu" collegename="saveetha"/> }> </Route>
+       <Route exact path='/GreetClassComponent' element={<GreetClassComponent name="sai babu"/>}></Route>
       </Routes>
       </div>
     </Router>
