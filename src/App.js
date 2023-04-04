@@ -14,15 +14,15 @@ function App() {
     <div className="App">
       <nav className="navBar">
         <Link to="/home">Home</Link>
-        <Link to="/about">About Us</Link>
+         <Link to="/about">About Us</Link>
         <Link to="/contact">Contact Us</Link>
-        <Link to="/Counter">Counter</Link>
+       <Link to="/Counter">Counter</Link>
         <Link to="/Form">React Form</Link>
         <Link to="/Youtube">Youtube</Link>
-        <Link to="/WelcomeFunctionComponent">Welcomefunction</Link>
+       <Link to="/WelcomeFunctionComponent">Welcomefunction</Link>
         <Link to="/GreetClassComponent">Greet class </Link>
         </nav>
-      <div><h1>Main Page</h1></div>
+      
       <Routes>
       <Route exact path='/Home' element={<HomeComponent/>}></Route>
        <Route exact path='/about' element={<AboutUsComponent/>}></Route>

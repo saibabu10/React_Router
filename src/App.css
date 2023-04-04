@@ -5,12 +5,14 @@
 }
 
 .navBar a{
-  padding-left: 10px;
+  /* padding-left: 10px; */
   text-align: left;
-  background-color: #61dafb;
+  background-color: #00080b;
+  color: red;
   text-decoration: none;
+  padding-left: 104px;
+  /* display: grid; */
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

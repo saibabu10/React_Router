@@ -1,0 +1,22 @@
+.run
+{
+    font-size: 40px;
+    text-align: center;
+  
+
+}
+.sub
+{
+
+    font-size: 30px;
+    line-height: 50px;
+    word-spacing: 0.6em;
+    /* float:right; */
+    padding: 100px;
+    text-align: center;
+    background-color: black;
+}
+.square
+{
+    list-style-type:square ;
+}
